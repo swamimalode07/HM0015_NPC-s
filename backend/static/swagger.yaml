@@ -4,7 +4,6 @@ info:
   version: "1.0.0"
   description: API documentation for the TelMedSphere REST API using Swagger/OpenAPI Specificaion.
 servers:
-  - url: https://telmedsphere-server.vercel.app/
   - url: https://localhost:5000/
 tags:
   - name: Authentication
