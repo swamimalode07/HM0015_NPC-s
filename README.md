@@ -31,6 +31,7 @@
  [⭐ Overview](#overview).<br>
  [💥 Getting Started](#getting-started).<br>
  [🐳 Docker Setup](#docker-setup).<br>
+ [📑 API Documentation](#api-documentation).<br>
  [⚡ Project Admin & Mentors](#project-admin-and-mentors).<br>
  [💬 Join Chatting Server](#contributing-with-fun).<br>
  [📑 Contributing Guidelines](#contributing-guidelines).<br>
@@ -88,11 +89,6 @@ TelMedSphere is designed to make healthcare simple and accessible for both docto
 <h1 align="center"> <a href="https://pratik0112-telmedsphere.vercel.app/"> Live Project Demo ↗️</a></h1>
 
 ![](https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/1.png)
-![](https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/2.png)
-![](https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/3.png)
-![](https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/4.png)
-![](https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/5.png)
-![](https://github.com/PratikMane0112/TelMedSphere/blob/master/Overview/6.png)
 
 
 <h3 align="right"><a href="#top">⬆️</a></h3>
@@ -205,6 +201,25 @@ docker-compose kill
 ```
 
 <h3 align="right"><a href="#top">⬆️</a></h3>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<h2>📑API Documentation</h2>
+
+TelMedSphere provides a complete REST API documentation powered by Swagger (OpenAPI). This documentation allows you to explore, test, and understand all available endpoints.
+
+### Prerequisites
+- Ensure the application is running locally.
+
+### Steps to Run with Docker
+
+1. Start your Flask application locally (e.g - using `flask run`)
+
+2. Open your web browser and navigate to:
+
+```bash
+http://127.0.0.1:5000/api/docs
+```
+This will open the Swagger UI where you can see and interact with all the REST API endpoints.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
