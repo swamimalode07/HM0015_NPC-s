@@ -86,7 +86,7 @@ website_feedback = client.get_database("telmedsphere").website_feedback
 YOUR_DOMAIN = os.getenv('DOMAIN') 
 
 ### Swagger specific ###
-SWAGGER_URL = '/api/docs'  # URL for exposing Swagger UI (ex. http://your_-domain/api/docs)
+SWAGGER_URL = '/api/docs'  # URL for exposing Swagger UI (ex. http://your-domain/api/docs)
 API_URL = '/static/swagger.yaml'  # URL where your swagger.yaml is stored
 swaggerui_blueprint = get_swaggerui_blueprint(
     SWAGGER_URL,
